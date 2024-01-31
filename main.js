@@ -33,9 +33,9 @@ const header = document.querySelector('header');
 let id = 0;
 
 const images = [
-    '/Home/img/black.jpg',
-    '/Home/img/bg.jpg',
-    '/Home/img/ruto.jpg',
+    'Home/img/black.jpg',
+    'Home/img/bg.jpg',
+    'Home/img/ruto.jpg',
 ];
 
 function Slider(i) {
