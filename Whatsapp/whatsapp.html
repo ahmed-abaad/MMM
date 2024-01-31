@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Chat</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/ccbd4d6bc1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7f21f43567.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    
+</head>
+<body>
+
+    <div class="wow animate__animated animate__fadeInUp" data-wow-delay="2s">
+        <div class="whatsapp_float" id="show">
+            <i class="fa fa-whatsapp"></i>
+        </div>
+    </div>
+
+    <div class="Api" style="display: none;">
+        <div class="head">
+            <div>
+                <span><i class="fa-brands fa-whatsapp"></i></span>
+                <p>Start a Conversation...</p>
+            </div>
+            <div>
+            <small>Hi! Click one of our members below to chat<br>on WhatsApp</small>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="team">
+            <small>The team typically replies in a few minutes.</small>
+            </div>
+
+            <div class="contact" id="contact1" onClick="window.open('https://wa.me/+254718643456', '_blank');">
+                <div class="depot_img">
+                    <img src="whatsapp.png">
+                </div>
+                <p>Support<br><small>Agent 1</small></p>
+                
+                <div>
+                    <span><i class="fa-regular fa-message"></i></span>
+                </div>
+            </div>
+
+            <div class="contact" id="contact1" onClick="window.open('https://wa.me/+254718643456', '_blank');">
+                <div class="depot_img">
+                    <img src="whatsapp.png">
+                </div>
+                <p>Support<br><small>Agent 2</small></p>
+                
+                <div>
+                    <span><i class="fa-regular fa-message"></i></span>
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <span><i class="fa-regular fa-face-smile"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="whatsapp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+    
+    <script>
+    $(document).ready(function(){
+    $('#show').click(function() {
+        $('.Api').fadeToggle("slow","swing");
+        });
+    });
+    </script>
+
+
+</body>
+</html>

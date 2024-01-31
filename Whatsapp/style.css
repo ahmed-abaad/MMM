@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.whatsapp_float{
+    cursor: pointer;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #4fce5d;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+        font-size: 30px;
+        z-index: 100;
+}
+
+.whatsapp_float i{
+    margin-top: 16px;
+}
+
+.Api{
+    position: fixed;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    width: 310px;
+    max-height: auto;
+    bottom: 120px;
+    right: 40px;
+    font-family: Poppins;
+    font-size: 14px;
+    background: #fff;
+    z-index: 100;
+}
+
+.Api .head{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #4fce5d;
+}
+
+.head div{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.head div i{
+    margin-top: 10px;
+}
+
+.head div span{
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.head p{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.head small{
+    font-family: sans-serif;
+    line-height: 17px;
+    margin-left: 46px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+    font-size: 11px;
+}
+
+.Api .contact{
+    background: #F8F8F8;
+    border-left: 4px solid #4fce5d;
+    margin-bottom: 20px;
+}
+
+.Api .contact:hover{
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+    transition: .4s;
+}
+
+.depot_img img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.body .team{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.body .contact{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.body small{
+    color: #999;
+    font-size: 10px;
+}
+
+.body div i{
+    transform: translateX(6.5em);
+}
+
+.body div span{
+    min-width: 40px;
+    height: 40px;
+    color: #999;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.Api .bottom{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #E0E0E0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-40%);
+}
+
+
+@media screen and  (max-width: 767px){
+    .whatsapp_float i{
+        margin-top: 10px;
+    }
+    .whatsapp_float{
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+
+    .Api{
+        width: 260px;
+        max-height: auto;
+        bottom: 80px;
+        right: 10px;
+    }
+
+    .head p{
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    
+    .head small{
+        font-family: sans-serif;
+        line-height: 17px;
+        margin-left: 46px;
+        margin-bottom: 15px;
+        margin-top: -10px;
+        font-size: 9px;
+    }
+    
+    .body small{
+        color: #999;
+        font-size: 8px;
+    }
+
+    .body div span{
+        margin-left: -25px;
+    }
+
+    .Api .bottom{
+        margin-left: 15.5px;
+    }
+}
